@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>关于本站建立的一些想法</title>
+      <link href="/2022/01/28/%E6%AD%A4%E9%97%B4%E5%8D%9A%E5%AE%A2/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E5%BB%BA%E7%AB%8B%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/"/>
+      <url>/2022/01/28/%E6%AD%A4%E9%97%B4%E5%8D%9A%E5%AE%A2/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E5%BB%BA%E7%AB%8B%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<p>这个博客网站的建立，或许只是我一时兴起罢了。</p><h2 id="建站的想法💡">建站的想法💡</h2><p>最开始接触到 <a href="http://markdown.p2hp.com/">Markdown</a> 语法还是去年秋季。</p><p>刚开学的一个月进行了一次专业实习，既然是实习，那必然少不了实习报告和实验报告。也不是说报告多难写，只是重复单调的排版确实让人无奈。于是接触到了 Markdown 语法。</p><p>Markdown 语法简单易学，只需专注于文章内容的构建。</p><p>开始的时候使用的编辑器是 <a href="https://typora.com.cn/">Typora</a>。Typora 确实好用，界面简约，所见即说得。但是对于对于我来说，极简的UI设计并没有让我感到其所谓的简约之美。网上虽然有许多 Typora 的主题，当似乎并没有适合我的。于是我决定自己写一个主题。</p><img src="https://typora.com.cn/img/screen/Group-screen.png" width="50%" height="50%"><p>利用课余时间，花了一个星期时间，简单自学了一些 HTML 和 CSS 的基础知识，完成了我最初的设想。虽然没有达到预想之中的效果，但也还不错，至少自己喜欢。</p><p>学校的课程紧张，没有多余的时间花在这些琐碎的事情。想着想凑合用着，寒假有时间再重新写一个好看的主题。<br>然而，还没到寒假，Typora 就传出收费的消息。收费也不是很贵，但是我觉得没必要，单纯一个写作工具而已。</p><p>后来，我选择了<a href="https://b3log.org/siyuan/">思源笔记</a>。思源笔记还行，当用下来感觉有不少 Bug，但还是很好用的。同样，对于我来说，颜值就是生产力。思源笔记的集市上虽然有不少主题，但是质量都不怎么样。唯一让我喜欢的主题是 <a href="https://github.com/zqhjl/Rem-Craft">Rem Craft</a>，但是这个主题只是对 UI 的设计不错，但排版的效果于我而言并不是那么好。</p><img src="https://b3log.org/siyuan/static/home-img2.svg" width="30%" height="30%" text-align="center"><p>正值寒假期间，再 Bilibili 上找了一些 HTML 和 CSS 的视频，跟着学了学，感觉学的还不错，但也仅仅只是感觉。前前后后学了十来天，打算写个网页作为学习的成果。想法容易，但我真正敲代码的时候，脑子里只剩下两个字：**，好难！</p><p>当然，这点困难并不能对我造成什么影响。遇事不决问知乎，既然自己手写太难的话，那就在网上看看大佬是如何做的。最后决定做一个静态博客网站，也就是这个网站的由来。</p><h2 id="建站过程🎢">建站过程🎢</h2><p>建站的过程并不是所谓的有手就行。</p><p>一开始我选择的 <a href="https://vuepress.vuejs.org/zh/">VuePress</a>，一款 Vue 驱动的静态网站生成器。选择她，正如其展示的一样，简洁至上。然而当我配置，繁琐的步骤让我放弃了。</p><img src="https://vuepress.vuejs.org/hero.png" width="30%" height="30%"><p>后来就选择了现在的正在使用的 <a href="https://hexo.io/">Hexo</a>，一个快速、简洁且高效的博客框架。同样遵循颜值就是生产力的原则，我选择了 <a href="https://butterfly.js.org/posts/4073eda/">Butterfly</a>这个主题。在 Bilibili 找了一些配置教程，参考其作者精心编写的说明文档，三天的配置下来，终于完成了一个基本的框架。没错，只是一个框架，并没有多少内容。而且，现在的这个网站的 UI 也并不是那么理想，后续我会一点点的改进。</p><p>这个网站是部署在 <a href="http://github.com/">Github</a>上的，访问速度有所限制。本来是选择的 <a href="https://gitee.com/">Gitee</a>，但是莫名其妙的就出现下面这种情况。我排查了近一下午，愣是没有找到哪出了问题。</p><blockquote><p><strong>部署失败</strong><br>错误信息: ***可能包含违禁违规内容，请排查调整后再行重试。</p></blockquote><h2 id="结语🔚">结语🔚</h2><p>几天的努力，终于还是把这个网站完成了。或许有人说，这种东西不是有手就行，但是对于一个这方面的小白来说，当真是不简单。本人专业是农业机械化，跟这方面一点都不沾边，虽然学习过程中也会有接触到编程代码之类的东西。</p><p>后面我会一点点地把这个网站写成自己想要地样子，其实，这个网站更多地还是给自己看的。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 此间博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+            <tag> 闲谈 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>[object Object]</title>
       <link href="/2022/01/27/%E5%9B%BE%E6%A0%87%E6%BC%94%E7%A4%BA/"/>
       <url>/2022/01/27/%E5%9B%BE%E6%A0%87%E6%BC%94%E7%A4%BA/</url>
