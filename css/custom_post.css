@@ -1,0 +1,89 @@
+a, p, li, ul,  table{
+    font-size: 16px;
+    color: #182029;
+}
+
+
+
+
+/* 一级标题 */
+#post > #post-info .post-title {
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--light-grey);
+    color: var(--text-highlight-color);
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 标题下的提示 */
+#post > #post-info #post-meta, #post > #post-info #post-meta a {
+    color: #78818a;
+    text-align: center;
+}
+
+/* 引用块 */
+blockquote {
+    margin: 0 0 20px;
+    padding: 12px 15px;
+    font-size: 16px;
+    border-left: 4px solid #455364;
+    background-color: rgb(153 162 169 / 10%);
+    color: #455364;
+}
+
+/* 超链接 */
+#article-container a {
+    color: #257395;
+}
+
+/* 代码 */
+#article-container pre, #article-container code {
+    font-size: 16px;
+    font-family: Source Code Pro !important;
+}
+#article-container .highlight-tools .code-lang {
+    font-size: 14px;
+}
+#article-container .highlight-tools .expand + .code-lang {
+    left: 2.4rem;
+}
+
+/* 标题前的小图标 */
+#article-container h1:before, #article-container h2:before, #article-container h3:before, #article-container h4:before, #article-container h5:before, #article-container h6:before {
+    color: #98a9bf;
+}
+
+/* 版权声明 */
+#post .post-copyright .post-copyright-info a {
+    text-decoration: underline;
+    word-break: break-word;
+    color: #5a6e87;
+}
+
+/* 文末标签 */
+#post .tag_share .post-meta__tags {
+    display: inline-block;
+    margin: 12px 24px 6px 0;
+    padding: 0;
+    width: fit-content;
+    border: none;
+    border-radius: 20px;
+    color: #455264;
+    font-size: 16px;
+    /* -webkit-transition: all 0.2s ease-in-out; */
+}
+#post .tag_share .post-meta__tags::before{
+    content: "🏷️";
+}
+#post .tag_share .post-meta__tags:hover {
+    background: #45526400;
+    color: #465281;
+    text-decoration: underline;
+}
+
+/* 目录 */
+#aside-content #card-toc .toc-content .toc-link.active {
+    background: #455364;
+    color: #fff;
+    color: #6c7f96;
+}
